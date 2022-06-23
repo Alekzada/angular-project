@@ -1,7 +1,7 @@
 // Usado para decorar os serviços Angular
 import { Injectable } from '@angular/core';
 
-// Importa Lodash como _
+// Importa Lodash como _ (Comando NPM: npm i --save-dev @types/lodash)
 import * as _ from 'lodash';
 
 // Usado para navegar entre rotas
