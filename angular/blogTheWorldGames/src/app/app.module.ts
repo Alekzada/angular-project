@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'
 
 // Route Module
 import { RoutingModule } from './app.router';
@@ -18,13 +19,14 @@ import { BlogService } from './providers/blog.service'
     AppComponent,
     HomePageComponent,
     PostPageComponent,
-    ErrorPageComponent
+    ErrorPageComponent,
   ],
   imports: [
     RoutingModule,
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [BlogService],
   bootstrap: [AppComponent]
