@@ -12,7 +12,8 @@ import { PostPageComponent } from './pages/post-page/post-page.component';
 import { ErrorPageComponent } from './pages/error-page/error-page.component';
 
 // Services
-import { BlogService } from './providers/blog.service'
+import { BlogService } from './providers/blog.service';
+import { HeaderComponent } from './components/header/header.component'
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { BlogService } from './providers/blog.service'
     HomePageComponent,
     PostPageComponent,
     ErrorPageComponent,
+    HeaderComponent,
   ],
   imports: [
     RoutingModule,
